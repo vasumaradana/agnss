@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+sqlite-utils
+requests
+pandas
+fastapi-mqtt

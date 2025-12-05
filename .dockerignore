@@ -1,0 +1,33 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypotheses
+
+# Exclude temporary debug scripts
+debug_parser.py
+test_parser_local.py
+check_*.py
+list_2025.py
+test_igs_fetch.py
+debug_file.rnx.gz
+
+# Exclude data directory (should be a volume or created at runtime)
+ephemeris_data/
+agnss.db
